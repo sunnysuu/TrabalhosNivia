@@ -47,5 +47,12 @@ namespace Exemplo1
             frmcidadania cidadania = new frmcidadania();
             cidadania.Show();
         }
+
+        private void loopingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form5 loopings = new Form5();
+            loopings.Show();
+        }
     }
 }
